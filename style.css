@@ -10,6 +10,7 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+/* =========================hero styles======================== */
 .hero-container {
     width: 1440px;
     height: 652px;
@@ -55,4 +56,66 @@ body {
     padding: 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+}
+/* ==============================why development styles============================== */
+.why-develop-container {
+    width: 1140px;
+    height: 1393px;
+    border-radius: 16px;
+    padding: 80px 97px 80px 97px;
+    margin: 0 auto;
+    margin-top: 74px;
+    margin-bottom: 90px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.why-web-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.why-web-desc {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.change-world, .empowering-future, .make-proud {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 48px;
+    margin-top: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.change-world-text > h3, .empowering-future-text > h3, .make-proud-text > h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.change-world-text > p, .empowering-future-text > p, .make-proud-text > p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.change-world-text > button, .empowering-future-text > button, .make-proud-text > button {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
 }
