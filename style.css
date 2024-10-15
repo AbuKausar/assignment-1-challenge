@@ -300,3 +300,27 @@ body {
     border-radius: 8px;
     background: rgb(255, 255, 255);
 }
+
+/* ===============================footer styles============================= */
+.footer-container {
+    margin-top: 80px;
+    padding: 0 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+}
+
